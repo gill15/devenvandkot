@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.mykotlinapp.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.colorOnBackground"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="16"
+            column="12"
+            startOffset="672"
+            endLine="16"
+            endColumn="36"
+            endOffset="696"/>
+        <location id="R.color.colorOnPrimary"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="14"
+            column="12"
+            startOffset="570"
+            endLine="14"
+            endColumn="33"
+            endOffset="591"/>
+        <location id="R.color.colorOnSurface"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="17"
+            column="12"
+            startOffset="725"
+            endLine="17"
+            endColumn="33"
+            endOffset="746"/>
+        <location id="R.color.colorSecondaryVariant"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="10"
+            column="12"
+            startOffset="368"
+            endLine="10"
+            endColumn="40"
+            endOffset="396"/>
+        <location id="R.color.colorOnError"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="18"
+            column="12"
+            startOffset="775"
+            endLine="18"
+            endColumn="31"
+            endOffset="794"/>
+        <location id="R.color.colorBackground"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="11"
+            column="12"
+            startOffset="425"
+            endLine="11"
+            endColumn="34"
+            endOffset="447"/>
+        <location id="R.color.colorPrimaryLight"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="8"
+            column="12"
+            startOffset="265"
+            endLine="8"
+            endColumn="36"
+            endOffset="289"/>
+        <entry
+            name="model"
+            string="color[colorPrimary(U),colorPrimaryDark(U),colorPrimaryLight(D),colorBackground(D),colorSurface(D),colorSecondary(D),colorError(D),colorOnError(D),colorOnSurface(D),colorAccent(U),colorSecondaryVariant(D),colorOnSecondary(D),colorOnBackground(D),colorOnPrimary(D)],drawable[ic_launcher_round(U),ic_launcher(U)],layout[activity_main(U)],string[app_name(U)],style[Theme_AppCompat_Light_DarkActionBar(R),AppTheme(U)];13^12^0^1^9;;;"/>
+        <location id="R.color.colorError"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="13"
+            column="12"
+            startOffset="524"
+            endLine="13"
+            endColumn="29"
+            endOffset="541"/>
+        <location id="R.color.colorOnSecondary"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="15"
+            column="12"
+            startOffset="620"
+            endLine="15"
+            endColumn="35"
+            endOffset="643"/>
+        <location id="R.color.colorSecondary"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="9"
+            column="12"
+            startOffset="318"
+            endLine="9"
+            endColumn="33"
+            endOffset="339"/>
+        <location id="R.color.colorSurface"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="12"
+            column="12"
+            startOffset="476"
+            endLine="12"
+            endColumn="31"
+            endOffset="495"/>
+    </map>
+
+</incidents>

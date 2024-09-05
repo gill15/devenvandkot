@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorBackground
+color colorError
+color colorOnBackground
+color colorOnError
+color colorOnPrimary
+color colorOnSecondary
+color colorOnSurface
+color colorPrimary
+color colorPrimaryDark
+color colorPrimaryLight
+color colorSecondary
+color colorSecondaryVariant
+color colorSurface
+drawable ic_launcher
+drawable ic_launcher_round
+layout activity_main
+string app_name
+style AppTheme
